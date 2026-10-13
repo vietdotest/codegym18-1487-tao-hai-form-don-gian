@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Đăng ký học viên</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body >
+<nav><a href="index.html">Sở thích</a><a href="student.html">Đăng ký học viên</a></nav><main class="student"><h1>Đăng ký học viên</h1><form action="result.html" method="get"><label class="field" for="fullname">Họ và tên</label><input id="fullname" type="text" name="fullname" required><label class="field" for="email">Email</label><input id="email" type="email" name="email" required><label class="field" for="phone">Số điện thoại</label><input id="phone" type="tel" name="phone" ><label class="field" for="birthday">Ngày sinh</label><input id="birthday" type="date" name="birthday" ><fieldset><legend>Giới tính</legend><div class="choices"><label><input type="radio" name="gender" value="Nam">Nam</label><label><input type="radio" name="gender" value="Nữ">Nữ</label><label><input type="radio" name="gender" value="Khác">Khác</label></div></fieldset><label class="field" for="address">Địa chỉ</label><textarea id="address" name="address" rows="3"></textarea><label class="field" for="course">Khóa học</label><select id="course" name="course"><option>HTML &amp; CSS</option><option>JavaScript</option><option>Java</option><option>Python</option></select><fieldset><legend>Hình thức học</legend><div class="choices"><label><input type="radio" name="study_type" value="Online">Online</label><label><input type="radio" name="study_type" value="Offline">Offline</label></div></fieldset><fieldset><legend>Sở thích</legend><div class="choices"><label><input type="checkbox" name="hobby" value="Thể thao">Thể thao</label><label><input type="checkbox" name="hobby" value="Âm nhạc">Âm nhạc</label><label><input type="checkbox" name="hobby" value="Đọc sách">Đọc sách</label><label><input type="checkbox" name="hobby" value="Lướt web">Lướt web</label><label><input type="checkbox" name="hobby" value="Chơi game">Chơi game</label><label><input type="checkbox" name="hobby" value="Điện ảnh">Điện ảnh</label><label><input type="checkbox" name="hobby" value="Du lịch">Du lịch</label></div></fieldset><label class="field" for="note">Ghi chú</label><textarea id="note" name="note" rows="3"></textarea><div class="buttons"><button type="submit">Đăng ký</button><button type="reset">Nhập lại</button></div></form></main>
+</body>
+</html>
